@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp">
+
+        <ImageView
+            android:id="@+id/formulario_foto"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/person"
+            android:background="#00A8Ec"
+            />
+
+        <Button
+            android:id="@+id/formulario_botao_foto"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/fundo_camera"
+            android:textColor="#a6070f"
+            />
+    </RelativeLayout>
+
+    <EditText android:hint="Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/formulario_nome"/>
+
+    <EditText android:hint="Endereco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/formulario_endereco"/>
+
+    <EditText android:hint="Telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/formulario_telefone"/>
+
+    <EditText android:hint="Site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/formulario_site"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/formulario_ratingbar"/>
+
+
+
+</LinearLayout>
